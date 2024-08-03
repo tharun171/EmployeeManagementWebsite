@@ -1,0 +1,19 @@
+.footerDiv {
+    position: fixed; /* Fixes the footer at a specific position */
+    bottom: 0;       /* Positions the footer at the bottom of the viewport */
+    left: 0;         /* Aligns the footer to the left */
+    width: 100%;     /* Ensures the footer spans the full width */
+    background-color: black; /* Background color for visibility */
+    text-align: center; /* Centers the text inside the footer */
+    color: white; /* Text color */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    height: 50px; /* Sets the height of the footer */
+  }
+  
+  .footerSub {
+    height: 100%;
+    align-items: center; /* Vertically aligns items in the center */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Horizontally centers the content */
+  }
+  
